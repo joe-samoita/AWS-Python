@@ -1,0 +1,15 @@
+print("Python has three numeric types: int, float, and complex")
+
+myValue=1
+print(type(myValue))
+print(type(str(myValue) + "is of the datatype " + str(type(myValue))))
+
+
+myValue1=3.14
+print(str(myValue1) + " is of the datatype " + str(type(myValue1)))
+
+myValue2=5j
+print(str(myValue2) + " is of the datatype " + str(type(myValue2)))
+
+myValue3=True
+print(str(myValue3) + " is of the Datatype " + str(type(myValue3)))
